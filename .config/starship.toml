@@ -1,0 +1,48 @@
+format = """$username$directory$character"""
+add_newline = false
+
+[directory]
+style = "blue bold"
+truncation_length = 3
+truncate_to_repo = false
+
+[character]
+success_symbol = " ❯"
+error_symbol = " ❯"
+
+[git_branch]
+disabled = true
+
+[golang]
+disabled = true
+
+[python]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[package]
+disabled = true
+
+[terraform]
+disabled = true
+
+[username]
+style_user = "blue bold"
+style_root = "red bold"
+format = '[$user]($style) '
+disabled = false
+show_always = true
+
+[hostname]
+disabled = true
+
+[aws]
+disabled = true
+
+[cmd_duration]
+disabled = true
